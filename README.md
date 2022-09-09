@@ -15,6 +15,8 @@ One of the first challenge we are facing is to actually find the data files, as 
 Below links to web pages where data files from various carriers can be found (do add if you find more). Most websites present this information in different ways, and these resources are unfortunately not easy to harvest. In-network files can be extremely large, making them unpractical to read. Having standard API specifications and implementations providing access to this information in more useful ways (rather that data dumps) would greatly improve machine actionability and transparency. This would also facilitate implementation of pricing comparison tools required for phase two and three in 2023 and 2024.
 
 - [Aetna](https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICFI/machine-readable-transparency-in-coverage)
+- [Anthem](https://www.anthem.com/ca/machine-readable-file/search/)
+- [Blue Cross Blue Shield of Alabama](https://www.bcbsal.org/web/tcr)
 - [Cigna](https://www.cigna.com/legal/compliance/machine-readable-files)
 - [Dean Health Plan](https://www.deancare.com/Helpful-Links/Transparency-in-coverage)
 - [Dean / Prevea360 Health Plan](https://www.prevea360.com/Legal/Transparency-in-coverage)
@@ -34,6 +36,9 @@ Below links to web pages where data files from various carriers can be found (do
 
 ### Stories
 
+- [Health insurers just published close to a trillion hospital prices](https://www.dolthub.com/blog/2022-09-02-a-trillion-prices/), Alex Stein (DoltHub), 2022-08-01
+- [APIs and Beyond: Conversation with Alec Stein](https://youtu.be/nJ1P84dQ4W0), Pascal Heus (Postman Open Technologies), 2022-08
+- [Real-Time Payer Rates Data Tracker](https://blog.turquoise.health/turquoise-health-real-time-payer-rates-tracker/), Adam Geitgey / Chris Severn (Turquoise Health), 2022-07-15
 - [I analyzed 1835 hospital price lists so you didn't have to](https://www.dolthub.com/blog/2022-07-01-hospitals-compliance/), Alex Stein (DoltHub), 2022-07-01
 - [Health-Insurance Providers Begin Publishing Prices for Medical Care](https://www.wsj.com/articles/health-insurance-providers-begin-publishing-prices-for-medical-care-11656685249), Wall Street Journal, 2022-07-01
 - [Semi-Annual Hospital Price Transparency Compliance Report](https://www.patientrightsadvocate.org/semi-annual-compliance-report-2022), Patient Right Advocate.org, 2022-02
