@@ -1,3 +1,18 @@
+"""
+   Copyright 2022 Dolthub Inc.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+"""
 import requests
 import json
 import sqlite3
@@ -5,23 +20,15 @@ import asyncio
 import aiohttp
 
 # Create a SQLite table of URLs and filesizes
-con = sqlite3.connect("./kaiser_data.db")
+con = sqlite3.connect("./uhc_data.db")
 cur = con.cursor()
 cur.execute("CREATE TABLE IF NOT EXISTS in_network_files(url PRIMARY KEY UNIQUE, size)")
 
-urls = []
+print("Downloading UHC's blob file containing all URLs...")
+resp = requests.get("https://transparency-in-coverage.uhc.com/api/v1/uhc/blobs/")
+print("Finished.")
 
-# Get the list of in-network files from Kaiser's page
-# Capture only the negotiated rates files (ignore table of contents and allowed amounts files)
-resp = requests.get("https://healthy.kaiserpermanente.org/pricing/innetwork/2022-08_List.txt")
-for line in resp.text.split("\n"):
-    url = "https://healthy.kaiserpermanente.org/pricing/innetwork" + line.split("  ")[0].strip().replace(" ", "")
-    print(url)
-    if "in-network-rates" in url:
-        urls.append(url)
-    # Kaiser breaks the convention with their MRFs by not labeling them correctly here
-    elif "KPWA_FILE" in url:
-        urls.append(url)
+urls = [file["downloadUrl"] for file in resp.json()['blobs']]
 
 async def fetch_url_sizes(table, urls):
     """
