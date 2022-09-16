@@ -12,25 +12,14 @@ One of the first challenge we are facing is to actually find the data files, as 
 
 ### Coverage
 
-Below links to web pages where data files from various carriers can be found (do add if you find more). Most websites present this information in different ways, and these resources are unfortunately not easy to harvest. In-network files can be extremely large, making them unpractical to read. Having standard API specifications and implementations providing access to this information in more useful ways (rather that data dumps) would greatly improve machine actionability and transparency. This would also facilitate implementation of pricing comparison tools required for phase two and three in 2023 and 2024.
+Consult this [Google spreadsheet](https://docs.google.com/spreadsheets/d/1Uuphuk41tFGmrulXhfeDN2zVkmVLzb4S1kdq20-4uZo/edit?usp=sharing) for links and information on websites we have identified where data can be found. Request edit access or file an issue if you wish to contribute. Most present this information in different ways, and these resources are unfortunately not easy to harvest. In-network files can be extremely large, making them unpractical to read. 
 
-- [Aetna](https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICFI/machine-readable-transparency-in-coverage)
-- [Anthem](https://www.anthem.com/ca/machine-readable-file/search/)
-- [Blue Cross Blue Shield of Alabama](https://www.bcbsal.org/web/tcr)
-- [Cigna](https://www.cigna.com/legal/compliance/machine-readable-files)
-- [Dean Health Plan](https://www.deancare.com/Helpful-Links/Transparency-in-coverage)
-- [Dean / Prevea360 Health Plan](https://www.prevea360.com/Legal/Transparency-in-coverage)
-- [Geisinger Health Plan](https://www.geisinger.org/health-plan/nosurprisesact)
-- [Health Net](https://www.centene.com/price-transparency-files.html) (Ambetter, QualChoice, Health Net, MHN, WellCare of North Carolina, Fidelis)
-- [Hawai'i Medical Service Association (HMSA)](https://www.centene.com/price-transparency-files.html)
-- [Independence Blue Cross Blue Shield](https://www.ibx.com/developer-resources)
-- [Kaiser Permanente](https://healthy.kaiserpermanente.org/front-door/machine-readable)
-- [Medical Card Systems (MCS)](https://mcs.com.pr/es/Paginas/Transparency-es.aspx)
-- [Medical Mutual](https://www.medmutual.com/For-Employers/Employer-Resources/No-Surprises-Act-Legislation.aspx)
-- [Priority Health](https://www.priorityhealth.com/landing/transparency)
-- [University of Pittsburgh Medical Center (UPMC)](https://www.upmchealthplan.com/transparency-in-coverage/mrf/)
-- [Optum](https://transparency-in-coverage.optum.com/)
-- [United Health](https://transparency-in-coverage.uhc.com/)
+Having standard API specifications and implementations providing access to this information in more useful ways (rather that data dumps) would greatly improve machine actionability and transparency. This would also facilitate implementation of pricing comparison tools required for phase two and three in 2023 and 2024.
+
+The following companies are developing solutions or readily offering access to the data in various ways. Contact them for further information.
+
+- [Serif Health](https://www.serifhealth.com/)
+- [Turquoise Health](https://turquoise.health/for_payers)
 
 ## Resources
 
