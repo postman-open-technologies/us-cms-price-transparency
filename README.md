@@ -1,6 +1,6 @@
 # U.S. CMS Price Transparency: How can APIs help?
 
-Use this project to discuss issues or develop tools/utilities to foster the establishment of APIs and best practices supporting efforts by the U.S. [Center Medicaid and Medicare Services](https://www.cms.gov/) to increase healthcare costs transparency, specifically [Hospital Price Transparency](https://www.cms.gov/hospital-price-transparency) and [Transparency in Coverage](https://www.cms.gov/healthplan-price-transparency) requirements. This repository complement our [Postman public workspace](https://go.postman.co/workspace/7d431065-785e-44f5-b70a-49ce1f8f9a63) on the topic, which the Postman Open Technologies team recently began to investigate as outlined in this [blog story](#).
+Use this project to discuss issues or develop tools/utilities to foster the establishment of APIs and best practices supporting efforts by the U.S. [Center Medicaid and Medicare Services](https://www.cms.gov/) to increase healthcare costs transparency, specifically [Hospital Price Transparency](https://www.cms.gov/hospital-price-transparency) and [Transparency in Coverage](https://www.cms.gov/healthplan-price-transparency) requirements. This repository complement our [Postman public workspace](https://www.postman.com/postman/workspace/postman-open-technologies-u-s-cms-transparency-in-coverage/overview) on the topic, which the Postman Open Technologies team recently began to investigate as outlined in this [blog story](#).
 
 ## Data Sources
 
